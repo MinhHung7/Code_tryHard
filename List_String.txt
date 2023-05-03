@@ -1,0 +1,12 @@
+Cho chữ cái c in hoa và số nguyên K; Hãy tìm cách liệt kê tất cả các xâu có K ký tự khác nhau được tạo ra bởi các chữ cái tính từ ‘A’ đến ký tự c. Các ký tự được phép lặp lại nhưng không tính các xâu là hoán vị của xâu nào đó đã liệt kê trước đó
+VD: C 2
+=> 
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC

@@ -1,0 +1,9 @@
+Nhiệm vụ của bạn là hãy liệt kê các xâu nhị phân thuận nghịch có độ dài chẵn theo thứ tự từ điển với chiều dài không quá n kí tự.
+Vd: 4
+=> 
+00
+0000
+0110
+1001
+11
+1111

@@ -1,0 +1,7 @@
+Cho mảng số nguyên gồm N phần tử, các phần tử trong mảng không quá 100. Hãy liệt kê các hoán vị của các phần tử khác nhau trong mảng theo thứ tự ngược.
+Vd: 
+2
+1 2
+=> 
+2 1
+1 2

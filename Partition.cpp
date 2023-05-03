@@ -4,50 +4,40 @@ int n;
 vector<int>vt(25, 0);
 bool stop=false;
 void sinh(){
-    if(vt[1]==1){
+    int i=24;
+    while(vt[i]==1 || vt[i]==0){
+        --i;
+        if(i==0){
+            break;
+        }
+    }
+    if(i==0){
         stop = true;
-        return ;
     }
     else{
-        if(vt[2]==1){
-            --vt[1];
-            int sum = n-vt[1];
-            int j=2;
-            while(sum>0){
-                vt[j] = min(vt[j-1], sum);
-                sum-=vt[j];
-                ++j;
-            }
-            while(j<=n){
-                vt[j] = 0;
-                ++j;
-            }
+        --vt[i];
+        int sum=0;
+        for(int j=1; j<=i;++j){
+            sum+=vt[j];
         }
-        else{
-            int i=n;
-            while(vt[i]==0 || vt[i]==1){
-                --i;
-            }
-            if(vt[i]-1 >= vt[i+1]+1){
-                --vt[i];
-                ++vt[i+1];
-            }
-            else{
-                --vt[i];
-                for(int j=i+1; j<=n;++j){
-                    if(vt[j]==0){
-                        vt[j]=1;
-                        break;
-                    }
-                }
-            }
+        sum=n-sum;
+        int j=i+1;
+        while(sum){
+            vt[j] = min(sum, vt[j-1]);
+            sum-=vt[j];
+            ++j;
+        }
+        while(j<vt.size()){
+            vt[j] = 0;
+            ++j;
         }
     }
+
 }
 int main(){
     cin>>n;
     vt[1] = n;
-    for(int i=2;i<=21;++i){
+    for(int i=2;i<=24;++i){
         vt[i] = 0;
     }
     vector<vector<int>>ansV;
