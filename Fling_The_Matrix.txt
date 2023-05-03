@@ -1,0 +1,19 @@
+Cho 1 ma trận 2n x 2n. 
+Bạn có thể đảo ngược các dòng hoặc các cột tùy ý
+Nhiệm vụ của bạn là tìm ra tổng lớn nhất của các phần tử góc phần tư phía trên bên trái của ma trận sau khi đảo ngược
+Vd:
+1 4
+3 2
+=> 4
+
+112 42 83 119 
+56 125 56 49         
+15 78 101 43
+62 98 114 108
+=> 414
+
+Giải thích: Ma trận sau khi hoán đổi:
+119 114 42 112
+56 125 101 49
+15 78 56 43
+62 98 83 108
