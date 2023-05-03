@@ -1,0 +1,9 @@
+Cho một xâu kí tự S chỉ bao gồm các kí tự , hãy in ra các hoán vị của các kí tự khác nhau trong S theo thứ tự từ điển tăng dần.
+Vd: lqk
+=>
+klq
+kql
+lkq
+lqk
+qkl
+qlk
