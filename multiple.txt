@@ -1,0 +1,16 @@
+Một số được coi là số đẹp nếu nó chỉ bao gồm 2 số là 8 và 0. Bạn được cấp một số nguyên dương X, nhiệm vụ của bạn là tìm bội dương nhỏ nhất của X thỏa mãn bội này là số đẹp.
+vd: 
+6
+240
+19
+55
+47
+287
+247
+=>
+8880
+88008
+880
+80088
+8088808
+8000000008
